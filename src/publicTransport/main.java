@@ -5,11 +5,17 @@ public class main {
         transports ts = null;
 
         System.out.println("버스");
+        System.out.println("-----------------------");
         ts = new bus();
+        System.out.println("-----------------------");
         ts.start();
+        System.out.println("-----------------------");
         ts.inPassenger();
+        System.out.println("-----------------------");
         ts.speedChange();
+        System.out.println("-----------------------");
         ts.status();
+        System.out.println("-----------------------");
         System.out.println();
 
         System.out.println("택시");
