@@ -59,9 +59,7 @@ public class bus implements transports{
         Scanner scan = new Scanner(System.in);
         do {
             System.out.println("속도를 조절 하시겠습니까?");
-            System.out.println("1. 속도 상승");
-            System.out.println("2. 속도 감소");
-            System.out.println("3. 아니요");
+            System.out.println("1. 속도 상승    2. 속도 감소    3. 아니요");
 
             int menu = Integer.parseInt(scan.nextLine());
             switch(menu) {
@@ -141,8 +139,7 @@ public class bus implements transports{
             System.out.println("차고지입니다.");
             System.out.println("남은 주유량은 " + currentOil + "입니다.");
             System.out.println("채우시겠습니까?");
-            System.out.println("1.네");
-            System.out.println("2.아니요");
+            System.out.println("1.네    2.아니요");
 
             int menu = Integer.parseInt(scan.nextLine());
             switch(menu){
