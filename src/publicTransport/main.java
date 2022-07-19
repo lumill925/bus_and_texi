@@ -8,20 +8,18 @@ public class main {
         ts = new bus();
         ts.start();
         ts.inPassenger();
-        ts.speedChange();
+        ts.currentSpeedChange();
         ts.speedUpdate();
-        //ts.status1();
-        ts.status2();
+        ts.oilStatus();
         System.out.println();
 
         System.out.println("택시");
         ts = new texi();
         ts.start();
         ts.inPassenger();
-        ts.speedChange();
+        ts.currentSpeedChange();
         ts.speedUpdate();
-        //ts.status1();
-        ts.status2();
+        ts.oilStatus();
         System.out.println();
     }
 }
