@@ -155,11 +155,11 @@ public class texi implements transports {
             int menu = Integer.parseInt(scan.nextLine());
             switch(menu){
                 case 1:
-                    currentOil = 100;
-                    System.out.println("가득채워졌습니다.");
+                    currentOil += 10;
+                    System.out.println("10이 채워졌습니다.");
                     System.out.println("====================================");
                     this.inPassenger();
-                    this.speedChange();
+                    //this.speedChange();
                     this.speedUpdate();
                     this.status1();
                     break;

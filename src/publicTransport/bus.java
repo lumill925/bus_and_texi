@@ -144,13 +144,13 @@ public class bus implements transports{
             int menu = Integer.parseInt(scan.nextLine());
             switch(menu){
                 case 1:
-                    currentOil = 100;
-                    System.out.println("가득채워졌습니다.");
+                    currentOil += 10;
+                    System.out.println("10이 채워졌습니다.");
                     System.out.println("====================================");
                     this.inPassenger();
-                    this.speedChange();
-                    this.speedUpdate();
-                    this.status1();
+                    //this.speedChange(); // 속도 처음 선언하는 부분
+                    this.speedUpdate(); // 속도 변화시키는 부분
+                    this.status2();
                     break;
                 case 2:
                     System.out.println("운행을 종료합니다.");
