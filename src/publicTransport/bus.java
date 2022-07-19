@@ -16,6 +16,7 @@ public class bus implements transports {
 
     @Override
     public void start() {
+        System.out.println("버스");
         license1 = (int) (Math.random() * 9999) + 1;
         license2 = (int) (Math.random() * 9999) + 1;
         System.out.println("첫번째 버스 번호는 " + license1 + "입니다.");
