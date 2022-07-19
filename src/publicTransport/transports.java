@@ -3,14 +3,16 @@ package publicTransport;
 public interface transports {
     int maxBusPassenger = 30;
     int maxTexiPassenger = 4;
-    int firstOil = 100;
     int oilCutline = 10;
 
     void start();
     void inPassenger();
     void speedChange();
-    void status();
-    void finish();
+    void speedUpdate();
+    void status1();
+    void status2();
+    void refill();
+    void replay();
     static void normal() {
         System.out.println("일반상태입니다.");
     }
